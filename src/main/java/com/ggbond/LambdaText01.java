@@ -10,7 +10,7 @@ public class LambdaText01 {
          }
      };*/
      //Lambda表达式转换,小口诀:拷贝小括号,写死右箭头,落地大括号
-     LambdaDemo lambdaDemo = () -> {System.out.println("Hello,Lambda!");};
+     LambdaDemo01 lambdaDemo = () -> System.out.println("Hello,Lambda!");
      lambdaDemo.sayHello();
     }
 }
